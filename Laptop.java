@@ -30,30 +30,30 @@ public class Laptop{
    
    static int add()
    {
-   int num1 = 10;
-   int num2 = 20;
-   int value = num1 + num2;
-   return value;
+    int num1 = 10;
+    int num2 = 20;
+    int value = num1 + num2;
+    return value;
    } 
    
    static byte read()
    {
-   byte number = 35;
-   return number;
+    byte number = 35;
+    return number;
    }
    
    static long watch()
    {
-   long value1 = 345621L;
-   long value2 = 335621L;
-   long value = value1+ value2;
-   return value;
+    long value1 = 345621L;
+    long value2 = 335621L;
+    long value = value1+ value2;
+    return value;
    }
    
    static char run()
    {
-   char type = 'p';
-   return type;
+    char type = 'p';
+    return type;
    }
    
    static boolean write()
@@ -72,14 +72,14 @@ public class Laptop{
    
    static double create()
    {
-	   double value = 8.90963d;
-	   return value;
+	double value = 8.90963d;
+	return value;
    }
    
    static short multi()
    {
-	   short value = 567;
-	   return value;
+	short value = 567;
+	return value;
    }
 }
 
