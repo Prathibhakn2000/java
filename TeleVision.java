@@ -9,6 +9,10 @@ public class TeleVision{
   learn(56789000d);
   run(true);
   run(false);
+  byte value=10;
+  run(value);
+  short number = 100;
+  walk(number);
  
   }
   static void multi(int val1,int val2){
@@ -35,5 +39,13 @@ public class TeleVision{
   
   static void run(boolean value){
   System.out.println("task is completed? " +value);
-}
+  }
+
+  static void walk(short val){
+  System.out.println("the given number is " +val);
+  }
+
+  static void run(byte val){
+  System.out.println("the given number is " +val);
+  }
 }
