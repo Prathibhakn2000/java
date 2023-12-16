@@ -37,7 +37,7 @@ public class Casting{
 	 byte value5 =(byte) number5;
 	System.out.println(value5);
 	
-	double num2 = 23.4245345612f;
+	double num2 = 23.4245345612d;
 	float val2 =(float) num2;
 	System.out.println(val2);
 	
