@@ -18,6 +18,8 @@ public class Car
    short nbr = 786;
    sum(3425678l,67.3f,nbr);
    
+  
+   
    }
    
    static void walk(int number)
@@ -77,5 +79,6 @@ public class Car
    {
 	System.out.println("3rd method");  
    }
+   
    }
   
