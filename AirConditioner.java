@@ -59,12 +59,12 @@ public class AirConditioner
  
  public void display()
  {
-	 System.out.println(brandName);
-	 System.out.println(powerConsumption);
-     System.out.println(color);
-	 System.out.println(price);
-	 System.out.println(isItDualClimate);
-	 System.out.println(warranty);
+	 System.out.println("AC brandName:"+brandName);
+	 System.out.println("powerConsumption:"+powerConsumption);
+     System.out.println("color:"+color);
+	 System.out.println("price:"+price);
+	 System.out.println("AC is DualClimate:"+isItDualClimate);
+	 System.out.println("warranty:"+warranty);
  }
  }
  
