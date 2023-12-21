@@ -1,46 +1,46 @@
-public class Plant
+public class Plants
 {
   String plantName;
   int height;
   byte sunLight;
   
   
-  Plant(String plantName,int height,byte sunLight)
+  Plants(String plantName,int height,byte sunLight)
   {
 	this.plantName=plantName;
     this.height=height;
     this.sunLight=sunLight;	
 	
   }
-  Plant()
+  Plants()
   { 
     this("rose");
 	System.out.println("No param constructor"); 
   }
   
-  Plant(String plantName)
+  Plants(String plantName)
   {
-	this(6);
-	System.out.println("name of the plant"); 
+	this(7);
+	System.out.println("name of the plant:"+plantName); 
   }
   
-  Plant(int height)
+  Plants(int height)
   {
 	this((byte)6);
-	System.out.println("height of the plant");  
+	System.out.println("height of the plant:"+height);  
        
   	
   }
   
-  Plant(byte sunLight)
+  Plants(byte sunLight)
   {
 	
-	System.out.println("amount of sunLight");   
+	System.out.println("amount of sunLight:"+sunLight);   
   }
   
   public static void main(String[] args)
   {
-	Plant plant=new Plant();
+	Plants plant=new Plants();
 	
 }
 }
