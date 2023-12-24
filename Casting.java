@@ -54,5 +54,12 @@ public class Casting{
 	int number7 = value7 + 32;
 	char lowercase = (char) number7;
 	System.out.println(lowercase);
+	
+	int num4 =91;
+	char val4 =(char) num4;
+	System.out.println(val4);
+	
+	
+	
 	}
    }
