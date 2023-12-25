@@ -38,7 +38,7 @@ public class Camera
 	 System.out.println("camera chargingType :"+chargingType);
 	 System.out.println("camera displayType :"+displayType);
 	 System.out.println("camera modelYear :"+modelYear);
-	 System.out.println("camera features :"+features);
+	 System.out.println("camera features :");
 	 
 	 
  }

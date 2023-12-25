@@ -6,49 +6,49 @@ public class CameraRunner
    
    Camera camera = new Camera("Canon",50000,2184,CameraType.DSLR,CameraBatteryType.AA,CameraChargingType.WIRELESS,CameraDisplayType.TOUCHSCREEN,2009,features);
    camera.displayCameraDetails();
-   for(int i=0;i<=0;i++)
+   for(int i=0;i<features.length;i++)
    {
-	System.out.println("features:"+features[0]);   
+	System.out.println("features:"+features[i]);   
    }
    
    System.out.println("                                         ");
    Camera camera1 = new Camera("Nikon",60000,5167,CameraType.MIRRORLESSCAMERA,CameraBatteryType.SONY,CameraChargingType.USBC,CameraDisplayType.LCD,2010,features);
    camera1.displayCameraDetails();
-   for(int i=1;i<=1;i++)
+   for(int i=0;i<features.length;i++)
    {
-	System.out.println("features:"+features[1]);   
+	System.out.println("features:"+features[i]);   
    }
    
    System.out.println("                                         ");
    Camera camera2 = new Camera("Sony",55000,3456,CameraType.DIGITALCAMERA,CameraBatteryType.CR123A,CameraChargingType.MICROUSB,CameraDisplayType.OLED,2018,features);
    camera2.displayCameraDetails();
-   for(int i=2;i<=2;i++)
+   for(int i=0;i<features.length;i++)
    {
-	System.out.println("features:"+features[2]);   
+	System.out.println("features:"+features[i]);   
    }
    
    System.out.println("                                         ");
    Camera camera3 = new Camera("Panasonic",45000,2312,CameraType.FILMCAMERA,CameraBatteryType.ALKALINE,CameraChargingType.LIGHTNING,CameraDisplayType.ELECTRONICVIEWFINDER,2008,features);
    camera3.displayCameraDetails();
-   for(int i=3;i<=3;i++)
+   for(int i=0;i<features.length;i++)
    {
-	System.out.println("features:"+features[3]);   
+	System.out.println("features:"+features[i]);   
    }
    
    System.out.println("                                         ");
    Camera camera4 = new Camera("Fujifilm",70000,5134,CameraType.BRIDGECAMERA,CameraBatteryType.LITHIUMION,CameraChargingType.AABATTERIES,CameraDisplayType.OPTICALVIEWFINDER,2015,features);
    camera4.displayCameraDetails();
-   for(int i=4;i<=4;i++)
+   for(int i=0;i<features.length;i++)
    {
-	System.out.println("features:"+features[4]);
+	System.out.println("features:"+features[i]);
    }
    
    System.out.println("                                         ");
    Camera camera5 = new Camera("Olympus",66000,6897,CameraType.ACTIONCAMERA,CameraBatteryType.AAA,CameraChargingType.CR123ABATTERIES,CameraDisplayType.FLIPOUTSCREEN,2019,features);
    camera5.displayCameraDetails();
-   for(int i=5;i<=5;i++)
+   for(int i=0;i<features.length;i++)
    {
-	System.out.println("features:"+features[5]);   
+	System.out.println("features:"+features[i]);   
    }
   
   
