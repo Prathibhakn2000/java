@@ -4,7 +4,7 @@ public enum BloodGroup
   
   String value;
 
- BloodGroup(String value)
+ BloodGroup(String value) //param Constructor initialization
  {
 	this.value=value; 
  }

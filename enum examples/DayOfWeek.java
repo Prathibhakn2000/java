@@ -4,7 +4,7 @@ public enum DayOfWeek
   
   String value;
   
-  DayOfWeek(String value)
+  DayOfWeek(String value) //param Constructor initialization
   {
     this.value=value;
   }

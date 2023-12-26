@@ -4,7 +4,7 @@ public enum Result
   
   String value;
 
- Result(String value)
+ Result(String value) //param Constructor initialization
  {
 	this.value=value; 
  }

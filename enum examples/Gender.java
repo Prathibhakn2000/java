@@ -4,7 +4,7 @@ public enum Gender
   
   String value;
   
-  Gender(String value)
+  Gender(String value) //param Constructor initialization
   {
     this.value=value;
   }

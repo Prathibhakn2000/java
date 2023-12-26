@@ -1,9 +1,9 @@
 public enum Grade
 {
-  A('A'),B('b'),C('c'),O('o');
+  A('a'),B('b'),C('c'),O('o');
   char value;
 
- Grade(char value)
+ Grade(char value) //param Constructor initialization
  {
 	this.value=value; 
  }
