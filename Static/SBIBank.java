@@ -1,4 +1,4 @@
-public class Bank
+public class SBIBank
 {
  static String bankName = "SBI";
  int accountNumber = 2023034122001;
