@@ -1,7 +1,7 @@
 public class LGFridge 
 {
  static  String brandName = "LG";
- static boolean hacFreezer = true;
+ static boolean hasFreezer = true;
  int price = 25000;
  String color ="silver";
  int capacity = 19;
