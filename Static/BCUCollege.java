@@ -1,6 +1,6 @@
 public class BCUCollege
 {
- String collegeName = "bcu";
+ String collegeName = "BCU";
  static String uniformColor = "black";
  static  int foundationYear = 1999;
  static string location ="bengaluru";
