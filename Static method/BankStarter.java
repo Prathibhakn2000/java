@@ -2,7 +2,9 @@ public class BankStarter
 { 
  public static void main(String[] args)
  {
-  Bank.createAccount();  // Invoking static method
+   
+	  
+  Bank.createAccount();  // Invoking static methods
   
   Bank.deposite();
   
@@ -27,4 +29,6 @@ public class BankStarter
   Bank bank4=new Bank();
   bank4.closeAccount();
  }
+ 
+ 
 }

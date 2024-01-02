@@ -20,10 +20,10 @@ public class Laptops
  {
 	operatingSystem = "windows";
 	hasTouchScreen = false;
-	processorType = "Intel";
+	processorType = "Intell";
  }
- 
-/* public void display()
+   
+    void display()
   { 
     System.out.println(brandName);
 	System.out.println(price);
@@ -47,7 +47,7 @@ public class Laptops
 	 obj1.display();
 	 
 	 
- }*/
+ }
 
  
 }
