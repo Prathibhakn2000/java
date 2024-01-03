@@ -3,7 +3,7 @@ public class Casting{
     
 	/// Up Casting
 	
-    byte number = 36;
+    byte number = 46;
     short value = number;
 	System.out.println(value);
 	
