@@ -2,7 +2,7 @@ public class SchoolStarter
 {
  public static void main(String[] args)
  {
-  School obj=new School(Result.PASS,Gender.MALE,BloodGroup.O_POSITIVE,Direction.EAST,Payment.ONLINE,DayOfWeek.MONDAY,Grade.A,Semester.SIX,WeatherCondition.SUNNY,Season.WINTER);
+  School obj=new School(Result.PASS,Gender.MALE,BloodGroup.O_POSITIVE,Direction.NORTH,Payment.ONLINE,DayOfWeek.MONDAY,Grade.A,Semester.SIX,WeatherCondition.SUNNY,Season.WINTER);
   obj.displayDetails();
   
   System.out.println(obj.result.value);
