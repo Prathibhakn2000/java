@@ -3,7 +3,7 @@ public class Numerical {
 		
 	  ///float///
 		
-	 float height = 4.2f;
+	 float height = 6.2f;
 	 System.out.println(height);
 	 height = 5.5f;
 	 System.out.println(height);
