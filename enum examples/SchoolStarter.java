@@ -44,7 +44,7 @@ public class SchoolStarter
 	System.out.println("condition false");
   }
   
-  if(obj.gender.value=="MALE")
+  if(obj.gender.value =="MALE")
   {
 	System.out.println("condition true");
   }
