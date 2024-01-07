@@ -3,7 +3,7 @@ public class StringOccurence
  public static void main(String[] args)
  {
   String value = "hello";                               // fing the occurence of a string
-  int occurence=StringOperation.findOccurence(value,'l');
+  int occurence=StringOccurence.findOccurence(value,'l');
   System.out.println(occurence);
  }
  

@@ -3,6 +3,7 @@ public class StringUpperLowerCase
  public static void main(String[] args)
  {
   StringUpperLowerCase.change("PraTHIbha");
+  
  }
  
  static void change(String value)
