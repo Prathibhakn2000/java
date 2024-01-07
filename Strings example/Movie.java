@@ -4,12 +4,12 @@ public class Movie
   {
 	
    
-   String str = "" ;
+   String str = null ;
    if(str!=null)          // null check
-   {
+  {
    boolean value = str.isEmpty(); // it returns true if length is 0,otherwise returns false
    System.out.println(value);
-   }
+  }
   
   
   String str1 = "Programming Language"; //it removes the whiteSpace (first and last)
