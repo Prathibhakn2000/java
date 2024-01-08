@@ -4,7 +4,7 @@ public class Movie
   {
 	
    
-   String str = null ;
+   String str = "";
    if(str!=null)          // null check
   {
    boolean value = str.isEmpty(); // it returns true if length is 0,otherwise returns false
@@ -12,7 +12,7 @@ public class Movie
   }
   
   
-  String str1 = "Programming Language"; //it removes the whiteSpace (first and last)
+  String str1 = " Programming Language "; //it removes the whiteSpace (first and last)
   String trimvalue = str1.trim();
   System.out.println(trimvalue);
   

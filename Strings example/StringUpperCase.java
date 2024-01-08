@@ -2,8 +2,8 @@ public class StringUpperCase
 {
  public static void main(String[] args)
  {
-  
-   StringUpperCase.change("prathibha");
+  String value="prathibha";
+  StringUpperCase.change(value);
  }
  
  static void change(String value)
