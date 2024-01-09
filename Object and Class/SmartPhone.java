@@ -4,15 +4,15 @@ public class SmartPhone
  int storage;
  String color;
  int price;
- boolean is_powered_on;
+ boolean isPoweredOn;
  int batteryBackup;
 
- void make_call()
+ void makeCall()
   {
     System.out.println("Calling");
   }
   
-void send_message()
+void sendMessage()
  {
    System.out.println("Sending a message");
  }
@@ -23,13 +23,13 @@ void consumeElectricity()
 } 
        
            
-SmartPhone(String branf,int storage,String color,int price,boolean is_powered_on,int batteryBackup)
+SmartPhone(String branf,int storage,String color,int price,boolean isPoweredOn,int batteryBackup)
 {
  this.brand=brand;
  this.storage=storage;
  this.color=color;
  this.price=price;
- this.is_powered_on=is_powered_on;
+ this.isPoweredOn=isPoweredOn;
  this. batteryBackup=batteryBackup;
  
 }
@@ -40,15 +40,15 @@ SmartPhone(String branf,int storage,String color,int price,boolean is_powered_on
 	System.out.println("phone storage:"+storage);
 	System.out.println("phone color:"+color);
 	System.out.println("phone price:"+price);
-	System.out.println("is_powered_on:"+is_powered_on);
+	System.out.println("isPoweredOn:"+isPoweredOn);
 	System.out.println("phone batteryBackup:"+batteryBackup);
  }
  
  public static void main(String[] args)
  {
   SmartPhone phone = new SmartPhone("oppo",256,"black",25000,true,45375);
-  phone.make_call();
-  phone.send_message();
+  phone.makeCall();
+  phone.sendMessage();
   phone.consumeElectricity();
   phone.SmartPhoneInformation();
  }

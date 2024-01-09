@@ -5,7 +5,7 @@ public class Dog
     int age;
     String color;
     int weight;
-    boolean is_barking;
+    boolean isBarking;
 	
 	void brak()
 	{
@@ -22,14 +22,14 @@ public class Dog
 	  System.out.println("Dog is sleeping");
 	}
 	
-	Dog(String name,String breed,int age,String color,int weight,boolean is_barking)
+	Dog(String name,String breed,int age,String color,int weight,boolean isBarking)
 	{
 	  this.name=name;
 	  this.breed=breed;
 	  this.age=age;
 	  this.color=color;
 	  this.weight=weight;
-	  this.is_barking=is_barking;
+	  this.isBarking=isBarking;
 	}
 	
 	public static void main(String[]args)

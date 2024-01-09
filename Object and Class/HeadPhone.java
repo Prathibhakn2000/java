@@ -4,28 +4,28 @@ String brand;
 String color;
 boolean wireless;
 int price;
-boolean is_playing;
+boolean isPlaying;
 
-void play_music()
+void playMusic()
  {
   System.out.println("playing music");
  }       
-void pause_music()
+void pauseMusic()
  { 
    System.out.println("paused the music"); 
  }
-void adjust_volume()
+void adjustVolume()
 {
 System.out.println("adjusting volume");
 }
 
-HeadPhone(String brand,String color,boolean wireless,int price,boolean is_playing)
+HeadPhone(String brand,String color,boolean wireless,int price,boolean isPlaying)
 {
 this.brand=brand;
 this.color=color;
 this.wireless=wireless;
 this.price=price;
-this.is_playing=is_playing;
+this.isPlaying=isPlaying;
 }
 
 public void headPhoneDetails()
@@ -34,15 +34,15 @@ public void headPhoneDetails()
 	System.out.println("phone color:"+color);
 	System.out.println("phone wireless:"+wireless);
 	System.out.println("phone price:"+price);
-	System.out.println("is_playing:"+is_playing);
+	System.out.println("isPlaying:"+isPlaying);
  }
  
  public static void main(String[] args)
  {
   HeadPhone headphone= new HeadPhone("sony","black",true,2600,true);
-  headphone.play_music();
-  headphone.pause_music();
-  headphone.adjust_volume();
+  headphone.playMusic();
+  headphone.pauseMusic();
+  headphone.adjustVolume();
   headphone.headPhoneDetails();
   }
   }

@@ -3,8 +3,8 @@ public class Chocolate
   String brand;
   String flavor;
   String weight;
-  String cocoa_content;
-  boolean is_milk_chocolate;
+  String cocoaContent;
+  boolean isMilkChocolate;
   int price;
   
   void unwrap()
@@ -17,13 +17,13 @@ public class Chocolate
     System.out.println("You take a bite of the chocolate, It's delicious!");
   }
   
-  Chocolate(String brand,String flavor,String weight,String cocoa_content,boolean is_milk_chocolate,int price)
+  Chocolate(String brand,String flavor,String weight,String cocoaContent,boolean isMilkChocolate,int price)
   {
    this.brand=brand;
    this.flavor=flavor;
    this.weight=weight;
    this.cocoa_content=cocoa_content;
-   this.is_milk_chocolate=is_milk_chocolate;
+   this.isMilkChocolate=isMilkChocolate;
    this.price=price;
   }
   

@@ -2,7 +2,7 @@ public class Watch
 {
 String color;
 String material;
-boolean is_running;
+boolean isRunning;
 String brand;
 int price;
 
@@ -18,11 +18,11 @@ void cossumeSpace()
 
 
 
-Watch(String color,String material,boolean is_ruuning,String brand,int price)
+Watch(String color,String material,boolean isRuuning,String brand,int price)
 {
  this.color=color;
  this.material=material;
- this.is_running=is_running;
+ this.is_running=isRunning;
  this.brand=brand;
  this.price=price;
 }
@@ -31,7 +31,7 @@ Watch(String color,String material,boolean is_ruuning,String brand,int price)
  {
     System.out.println("Watch color:"+color );
 	System.out.println("Watch material:"+material);
-	System.out.println("Watch is_ruuning:"+is_running);
+	System.out.println("Watch is_ruuning:"+isRunning);
 	System.out.println("Watch brand:"+brand);
 	System.out.println("Watch price:"+price);
  }
