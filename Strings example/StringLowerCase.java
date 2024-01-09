@@ -2,7 +2,9 @@ public class StringLowerCase
 {
  public static void main(String[] args)
  {
-  StringLowerCase.change("PRATHIBHA");
+ String value = "PRATHIBHA";
+  StringLowerCase.change(value);
+ 
  }
  
  static void change(String value)
