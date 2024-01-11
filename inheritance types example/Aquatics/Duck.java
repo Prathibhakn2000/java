@@ -5,9 +5,6 @@ public class Duck extends Aquatic
   System.out.println(" says: Quack!");
  }
  
- void buildNest()
- {
-  System.out.println(" is building a nest ");
- }
+ 
 
 }
