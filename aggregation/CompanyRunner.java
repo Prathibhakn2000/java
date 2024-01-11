@@ -31,6 +31,7 @@ public static void main(String[]args)
  company1.hireEmployee();
  company1.emp.work();
  System.out.println("manager salary:"+company1.manager.salary);
+ //System.out.println(company);
  
  System.out.println("----------------------");
 
@@ -53,8 +54,7 @@ public static void main(String[]args)
 	bpo1.quality.performQualityCheck();
     bpo1.emp.work();
 	System.out.println(bpo1.nightShifts);
+
 	
-	
-	
-}
+	}
 }
