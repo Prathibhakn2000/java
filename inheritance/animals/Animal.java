@@ -1,15 +1,25 @@
 public class Animal
 {
  String speciesName;
- byte lifeSpan;
+ int lifeSpan;
  String color;
  
- // Animal(String speciesName,byte lifeSpan,String color)
- // {
-	// this.speciesName=speciesName;
-    // this.lifeSpan=lifeSpan;
-    // this.color=color;	
- // }
+ 
+ Animal()
+ {
+	 
+ }
+ 
+  Animal(String speciesName,int lifeSpan,String color)
+ {
+  this.speciesName=speciesName;
+  this.lifeSpan=lifeSpan;
+  this.color=color;	
+ }
+ 
+ 
+ 
+ 
  
  void eat()
  {

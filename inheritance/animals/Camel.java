@@ -3,11 +3,19 @@ public class Camel extends Animal
  int humpSize;
  boolean isDesertAnimal;
  
-  // Camel(int humpSize,boolean isDesertAnimal)
-  // {
-	 // this.humpSize=humpSize;
-     // this.isDesertAnimal=isDesertAnimal;	
-  // }
+ Camel()
+ {
+	 
+ }
+ 
+  Camel(int humpSize,boolean isDesertAnimal,String speciesName,int lifeSpan,String color)
+ {
+      this.humpSize=humpSize;
+      this.isDesertAnimal=isDesertAnimal;
+      this.speciesName=speciesName;
+      this.lifeSpan=lifeSpan;
+      this.color=color;		  
+   }
  
  
  void storeWater()

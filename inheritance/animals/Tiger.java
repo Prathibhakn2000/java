@@ -4,12 +4,21 @@ public class Tiger extends Animal
  boolean isHungry;
  boolean isSymobolOfPower;
  
-  // Tiger(String habitat,boolean isHungry,boolean isSymobolOfPower)
-  // {
-	 // this.habitat=habitat;
-     // this.isHungry=isHungry;
-     // this.isSymobolOfPower=isSymobolOfPower;	
-  // }
+ Tiger()
+ {
+	 
+ }
+ 
+  Tiger(String habitat,boolean isHungry,boolean isSymobolOfPower,String speciesName,int lifeSpan,String color)
+ 
+  {
+	  this.habitat=habitat;
+      this.isHungry=isHungry;
+      this.isSymobolOfPower=isSymobolOfPower;
+      this.speciesName=speciesName;
+      this.lifeSpan=lifeSpan;
+      this.color=color;		  
+   }
  
  
  void roar()
