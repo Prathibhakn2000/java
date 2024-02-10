@@ -1,0 +1,349 @@
+1. java is a objet oriented programming language 
+
+   object it is a real world entities
+   
+   programing language is communicate with the computer
+   
+   object Oriented programmimg language means communicate with comuter using objects called object oriented programmimg language
+   
+   javac -> it is a java compiler ,it executes java code whole code.
+   
+   it coverts a byte code to machine language
+   
+   to complile java use javac.classname.java
+   
+   
+2. JDK-> java development kit
+   
+   it has JRE,JVM, and some libraries
+  
+   Java development kit  has developmentTools to develop some application in java 
+   
+   JRE-> java runtime environment
+  
+   it has JVM,and some libraries
+  
+   java runtime environment has some softWare tools
+  
+   JVM-> java virtual machine 
+  
+   when we compile using javac it converts byte code to machine language and .class file created.
+  
+3. .java it is the extension for java files
+
+   .class it is when we complile .java file .class file is created
+   
+   java is flatform indepent it write once runs any where means using .class file runs the code any system 
+   
+4. eclipse
+   inteliga
+   
+5. variable is a continer it stores the values.
+   
+   declaration of variables: datatype variable name = value;
+   
+   types of variables :
+   1.Local variables: it is a type of variables it can be declare with in the a method  block it can access with in a block
+   
+   2.Instance Variables : it is type of variables it can declare a with in class out side a methods is calles instance or class level variables it can access acccess with in a class
+   
+   3.Static variables : it is a type of variables it can declare using static keyword 
+   
+   4.parameter variables : it is a type of variables it can declare using parameters
+   
+   
+   example:
+   public class Phone
+   {
+    String color; //instance variable
+	
+	static int number; //static variable
+	
+    public static void main(String[] args)
+	{
+    }
+	public void call(int price) //parameter variable
+	{
+	  String msg;  //local variable
+	}
+   }
+   
+6. object it is a real world entities and it is states and behaviours
+   
+   programing language is communicate with the computer
+   
+   object Oriented programmimg language means communicate with comuter using objects or real world entites is called object oriented programmimg language
+   
+7. it compile and execute(no error)
+
+8. data types it is a size and diffrent values stored in variables
+   
+   2 types in data types 
+   
+   1.primitive data types:it stores a numerical values
+     8 primitive dataTypes
+     1.byte->  1 byte space
+     2.short->  2 byte space
+     3.int->  4 byte space
+     4.long->  8 byte space
+     5.float->  4 byte space
+     6.double->  8 byte space 
+     7.char-> 2 byte space
+     8.boolean->  1 bite space 
+	 
+   2.Non-primitive data types	
+     1.String -> it is a sequence of characters
+        it is denoted by double qoutes
+        String is a class in java
+     
+     2.array -> it is a collection of same data	
+       array is declared in bracess
+       array index is fixed
+	   array index is start at 0 index
+	   
+	examples:   
+	   public class Xworkz
+      {
+        public static void main(String[] args){
+	  
+	  }
+		byte age =20;
+		short noOfChair= 39;
+		int noOfEmp =100;
+		long lapPrice =10000l;
+		float height= 9.0f;
+		double goldPrice = 3.908889d;
+		char  no='N';
+		boolean hadLunch= true;
+	  }
+
+9. dot operator it is connection it access the other class properties
+
+	example:
+     
+     public class Bag{
+	 
+	 public void open();
+	 {
+	  System.out.println("Bag is open");
+	 }
+	 
+	 public static void main (String[] args)
+	 
+	 {
+	   Bag bag = new Bag();
+	   bag.open();
+	 }
+	 
+	 }	 
+	  
+10. java features:
+
+    1.simple
+    2.flatform independent
+    3.secure
+    4.robust
+    5.multi threading
+	6.archictural nureal
+	7.object oriented programming language
+
+11. array is a collection of same data
+       array is declared in bracess
+       array index is fixed
+	   array index is start at 0 index	
+	   
+	  ex:
+      int arr[]={10,20,30,40,50,60};	  
+	   
+	   
+12. object-> is a instance of an class 
+    object is a real world entites
+   	it has states  and behaviours
+	states ->what object can has ,association
+	behaviours->what object can do
+	
+	examples:phone,car,pen
+	
+	object principles:
+	1.inheritance->parent and child realtionship, it accqures properties of parent
+	2.abtraction->showing fubxtionality and hidding implementation
+	3.encapusulation->passwords like it can't access
+	4.polymorphism->types of object
+	
+	class->it is a blueprint 
+	 with out object can't create a class
+	
+13. keyword is a predifined in java
+    static
+	package
+	instanceof
+	import
+	switch
+	extends
+	byte
+
+14.constructor it is a special 	methods, it is a block of code it will execute en object is created.
+   constructor name should be same as class name
+   it does not have return type
+    3 types od constructor
+	1. default constructor:it gives java compiler it look like no param constructor
+	
+	
+	2.no pram constructor:it is a type of constructor ,it has no parameters
+	 public Pen()
+	 {
+	 
+	 }
+	
+	3. param constructor: it is a type of constructor ,it has number of parameters
+	
+	public Pen()
+	{
+	
+	}
+	
+15.because JVM does not create any object for the starting so satic method we using JVM executes main method first Static method execute by using class name
+	
+	types of methods 
+	Static and non-Static
+	
+	
+	static is a single copy
+	it applies variables ,methods, and static block
+	Static methods  access using classname.methodname
+	
+	example:
+	public static void call()
+	{
+	
+	}
+	
+	non static method access using referencename.methodname
+	
+	public void call()
+	{
+	
+	}
+
+17. method overloading it is same method names and different parametrs
+
+    to achive method overloading 3 methods
+
+    1.number of parameters: changing the no of parameters
+	  public void call(int ,int)
+	{
+	
+	}
+	  public void call(int ,int,int)
+	{
+	
+	}
+	
+	2.order of parameters:
+	  public void call(int ,float)
+	{
+	
+	}
+	  public void call(float ,int)
+	{
+	
+	}
+	3.change type of parameters:
+	 public void call(int )
+	{
+	
+	}
+	  public void call(float)
+	{
+	
+	}
+	
+	
+	
+method overriding:same as method in parent class methods by changing the implementation
+
+using @override anotation is used to check the overrideor not
+
+  public void call()
+	{
+	  System.out.println("running in call")
+	}
+	  public void call()
+	{
+	   System.out.println("call a person")
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+ 	
+	   
+	   
+	   
+
+
+
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+    

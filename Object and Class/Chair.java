@@ -54,7 +54,7 @@ static void relax()
 	Chair.relax();
 	Chair.support();
 	chair.displayDetails();
-    Chair.legs;
+    
  }
  }
  
